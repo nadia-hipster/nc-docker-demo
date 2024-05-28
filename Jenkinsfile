@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tool {
+    tools {
         gradle '8.7'
     }
     stages {
